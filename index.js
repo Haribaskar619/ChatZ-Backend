@@ -6,7 +6,7 @@ const app = express();
 const {
   notFound,
   errorHandler,
-} = require("../backend/middlewares/errorMiddleware");
+} = require("../middlewares/errorMiddleware");
 const userRoutes = require("./routes/userRoutes");
 const chatRoutes = require("./routes/chatRoutes");
 const messageRoutes = require("./routes/messageRoutes");
